@@ -54,13 +54,34 @@ const zucchine = [
     }
 
 ];
-console.log(zucchine[0].peso)
+
 let sum = 0;
+let zuccLong = [];
+let zuccShort = [];
 
-
-for(i = 0; i < zucchine.length; i++){
-    console.log(zucchine[i].peso);
-    sum += zucchine[i].peso;
+for(let i = 0; i < zucchine.length; i++){
+    // console.log(zucchine[i].lunghezza);
+    if(zucchine[i].lunghezza > 15){
+        zuccLong.push(zucchine[i]);
+    }else{
+        zuccShort.push(zucchine[i]);
+    }
 }
 
-console.log(sum)
+// console.log(zuccLong)
+// console.log(zuccShort)
+
+let sumZuccLong = 0;
+let sumZuccShort = 0;
+
+for(let i = 0; i < zuccLong.length; i++){
+    sumZuccLong += zuccLong[i].lunghezza;
+}
+
+for(let i = 0; i < zuccShort.length; i++){
+    sumZuccShort += zuccShort[i].lunghezza;
+}
+
+console.log(`La somma della lunghezza delle zucchine lunghe è ${sumZuccLong}`);
+console.log(`La somma della lunghezza delle zucchine lunghe è ${sumZuccShort}`);
+
