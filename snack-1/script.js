@@ -5,7 +5,7 @@ const zucchine = [
     {
         varietà: "zucchina 1",
         peso: 55,
-        lunghezza: 13
+        lunghezza: 12
     },
     {
         varietà: "zucchina 2",
@@ -15,42 +15,42 @@ const zucchine = [
     {
         varietà: "zucchina 3",
         peso: 92,
-        lunghezza: 13
+        lunghezza: 22
     },
     {
         varietà: "zucchina 4",
         peso: 101,
-        lunghezza: 13
+        lunghezza: 9
     },
     {
         varietà: "zucchina 5",
         peso: 68,
-        lunghezza: 13
+        lunghezza: 28
     },
     {
         varietà: "zucchina 6",
         peso: 150, 
-        lunghezza: 13
+        lunghezza: 33
     },
     {
         varietà: "zucchina 7",
         peso: 200,
-        lunghezza: 13
+        lunghezza: 11
     },
     {
         varietà: "zucchina 8",
         peso: 122,
-        lunghezza: 13
+        lunghezza: 25
     },
     {
         varietà: "zucchina 9",
         peso: 80,
-        lunghezza: 13
+        lunghezza: 18
     },
     {
         varietà: "zucchina 10",
         peso: 140,
-        lunghezza: 13
+        lunghezza: 12
     }
 
 ];
