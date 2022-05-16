@@ -83,5 +83,5 @@ for(let i = 0; i < zuccShort.length; i++){
 }
 
 console.log(`La somma della lunghezza delle zucchine lunghe è ${sumZuccLong}`);
-console.log(`La somma della lunghezza delle zucchine lunghe è ${sumZuccShort}`);
+console.log(`La somma della lunghezza delle zucchine corte è ${sumZuccShort}`);
 
