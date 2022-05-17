@@ -49,5 +49,24 @@ const cars = [
         modello: 'sportage',
         alimentazione: 'gpl'
     },
+];
 
-]
+const arrayBenzina = [];
+const arrayDiesel = [];
+const arrayOtherAlim = [];
+
+cars.forEach((elm)=>{
+    console.log(elm.alimentazione)
+    if(elm.alimentazione == 'benzina'){
+        arrayBenzina.push(elm);
+    }else if (elm.alimentazione == 'diesel'){
+        arrayDiesel.push(elm);
+    }else{
+        arrayOtherAlim.push(elm);
+    }
+
+})
+
+console.log(arrayBenzina);
+console.log(arrayDiesel);
+console.log(arrayOtherAlim);
